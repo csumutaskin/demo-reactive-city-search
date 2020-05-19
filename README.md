@@ -9,7 +9,7 @@ You can download and use the content as a sandbox and see how your changes on th
 ### How to run
 - Download the contents of the project
 - Since this is a maven project, run mvn clean install spring-boot:run command to get it working
-- There is a built in rest end point with a Get method on url: http://localhost:8080/csumut/city/getBetween/{firstString}/{secondString}
+- There is a built in rest end point with a Get Http method that can be called using the URL: http://localhost:8080/csumut/city/getBetween/{firstString}/{secondString}
 - You can directly call the URL above through a web browser to see how rest end point is serving the data.
 
 ### Server features
