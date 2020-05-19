@@ -34,11 +34,11 @@ An example of a callable URL is:
 
 will only give you 3 results:
 
-Adana
-Adiyaman
-Afyon
+Adana,
+Adiyaman,
+Afyon,
 
-which are actually the cities between "ab - afz". Note that searching is case insensitive.
+which are actually the cities of Turkey between Strings: "ab - afz" alphabetically. Note that searching is case insensitive.
 
 ### More on architecture
 
