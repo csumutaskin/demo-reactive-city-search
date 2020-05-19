@@ -25,8 +25,8 @@ Afer running the project, you can call:
  http://localhost:8080/csumut/city/getBetween/{firstString}/{secondString}
 URL to list cities of Turkiye along with its car licensing plate number assigned in JSON format 
 
-{firstString } can be replaced with any string pattern (only letters) to narrow city contents by querying a start string prefix (included in search results)
-{secondString} can be replaced with any string to denote where city listing will finish alpabetically (excluded)
+- {firstString } can be replaced with any string pattern (only letters) to give a starting boundary alpabetically for search results.
+- {secondString} can be replaced with any string to denote where city listing will finish alpabetically (enterd text is excluded in search results)
 
 #### e.g.
 An example of a callable URL is:
