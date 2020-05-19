@@ -1,6 +1,6 @@
 # demo-reactive-city-search
 
-This project is a demo spring boot project, that can be downloaded and run independent of other projects and tools. It aims to show that how a rest end point with a reactive streams publisher body acts different than a rest API with a traditional rest end point.
+This project is a demo spring boot project, that can be downloaded and run independently from any other projects and tools. It aims to show that how a rest end point with a reactive streams publisher body acts different than a rest API with a traditional rest end point.
 
 Since this project is a demo project, no event driven messaging or a database with R2DBC connectivity is used. Instead a collection of items is created within a Repo object, and a Flux object is created from this collection's iterator and finally a Streaming JSON Response is being produced with a sample rest end point.
 
